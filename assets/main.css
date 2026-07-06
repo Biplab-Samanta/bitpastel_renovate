@@ -47,7 +47,7 @@ h6 {
     overflow: hidden;
     min-height: 100vh;
     padding: 80px 0 0;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 /* Navbar */
@@ -137,7 +137,6 @@ h6 {
     color: #d8d3e5 !important;
     padding: 0.75rem 0;
     font-weight: 500;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .offcanvas .nav-link:hover {
@@ -901,7 +900,7 @@ footer {
 
 .foot-grid {
     display: grid;
-    grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
     gap: 32px;
     margin-bottom: 48px;
 }
@@ -1099,5 +1098,19 @@ svg {
         animation: none;
         color: var(--mint);
         -webkit-text-stroke: 1px transparent;
+    }
+}
+
+@media (max-width: 760px) {
+    .laptop .row .col-4 {
+        width: 100%;
+    }
+
+    .process-step:not(:last-child)::after {
+        display: none;
+    }
+
+    .process-step {
+        min-width: 300px;
     }
 }
