@@ -1,1 +1,2 @@
-![Uploading bitpastel.png…]()
+### Main View
+![Main View](assets/images/screenshot.png)
