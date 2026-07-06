@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bitpastel — Hero Banner</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/main.css">
+  <script src="assets/main.js"></script>
+</head>
+
+<body>
+
+  <!-- ===== Page Loader ===== -->
+  <div id="pageLoader" role="status" aria-label="Loading">
+    <div class="loader-text">
+      <span style="animation-delay:0.00s">b</span>
+      <span style="animation-delay:0.07s">i</span>
+      <span style="animation-delay:0.14s">t</span>
+      <span style="animation-delay:0.21s">p</span>
+      <span style="animation-delay:0.28s">a</span>
+      <span style="animation-delay:0.35s">s</span>
+      <span style="animation-delay:0.42s">t</span>
+      <span style="animation-delay:0.49s">e</span>
+      <span style="animation-delay:0.56s">l</span>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-xl navbar-custom">
+    <div class="container px-0">
+      <a class="navbar-brand" href="#">
+        <span class="text-white logo fw-bold brand-logo">bitpastel</span>
+      </a>
+      <button class="navbar-toggler border-0 order-xl-0 order-1" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" id="navbarOffcanvas" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">bitpastel</h5>
+          <button type="button" class="btn-close btn-close-white text-reset float-end" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Services <i
+                  class="fa-solid fa-chevron-down fa-2xs ms-1"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Case Studies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Resources <i
+                  class="fa-solid fa-chevron-down fa-2xs ms-1"></i></a></li>
+          </ul>
+          <ul class="navbar-nav flex-wrap ms-auto">
+            <a href="#" class="btn btn-talk d-inline-block mt-3 mt-xl-0">Let's Talk</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="hero-wrap">
+    <div class="container">
+
+
+      <!-- Hero content -->
+      <div class="row align-items-center py-5">
+        <div class="col-lg-6">
+          <span class="eyebrow mb-4"><i class="fa-solid fa-plus"></i> Digital Solutions That Drive Real Growth</span>
+          <h1 class="headline my-4">Building Digital Products<br>that Scale to <span class="accent">Millions</span></h1>
+          <p class="sub-copy mb-4">We design, develop and grow modern SaaS, AI and Shopify solutions that help
+            businesses launch faster, grow bigger and scale beyond limits.</p>
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#" class="btn btn-cta">Book a Free Strategy Call <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            <a href="#" class="btn btn-outline-work"><i class="fa-solid fa-circle-play me-1"></i> View Our Work</a>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="avatars d-flex">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+              <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+            </div>
+            <div>
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <div class="trusted-text">Trusted by 500+ businesses worldwide</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="dash-stage">
+            <!-- floating stat cards -->
+            <div class="float-card card-revenue">
+              <div class="label">Total Revenue</div>
+              <div class="value">$2.45M</div>
+              <div class="delta"><i class="fa-solid fa-arrow-trend-up"></i> +24.9% this month</div>
+            </div>
+            <div class="float-card card-customers">
+              <div class="label">New Customers</div>
+              <div class="value">8,642</div>
+              <div class="delta"><i class="fa-solid fa-arrow-trend-up"></i> +18.2% this month</div>
+            </div>
+
+            <!-- laptop mock -->
+            <div class="laptop">
+              <div class="dash-topbar">
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    style="width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--mint),var(--purple));">
+                  </div>
+                  <div>
+                    <div style="font-weight:700; font-size:0.85rem;">Dashboard</div>
+                    <div style="font-size:0.65rem; color:var(--text-muted);">Overview</div>
+                  </div>
+                </div>
+                <div>
+                  <span class="dash-dot" style="background:#6d5cf5;"></span>
+                  <span class="dash-dot" style="background:#3ee6c4;"></span>
+                  <span class="dash-dot" style="background:#d43fd0;"></span>
+                </div>
+              </div>
+
+              <div class="row g-2">
+                <div class="col-7">
+                  <div class="panel h-100">
+                    <div class="label">Revenue</div>
+                    <div class="big text-white">$2.45M <span style="font-size:0.7rem;color:var(--mint);">+24.9%</span>
+                    </div>
+                    <svg class="mini-chart" viewBox="0 0 200 60" preserveAspectRatio="none">
+                      <polyline fill="none" stroke="#3ee6c4" stroke-width="2"
+                        points="0,50 20,45 40,48 60,35 80,38 100,25 120,30 140,15 160,20 180,8 200,10" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="panel h-100 text-center">
+                    <div class="label mb-2 text-start">Top Channels</div>
+                    <div class="donut"></div>
+                    <div class="text-start mt-2" style="font-size:0.65rem;">
+                      <div><span class="legend-dot" style="background:#3ee6c4;"></span>Organic</div>
+                      <div><span class="legend-dot" style="background:#6d5cf5;"></span>Referral</div>
+                      <div><span class="legend-dot" style="background:#d43fd0;"></span>Direct</div>
+                      <div><span class="legend-dot" style="background:#555;"></span>Social</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row g-2 mt-2">
+                <div class="col-4">
+                  <div class="panel">
+                    <div class="label">Orders</div>
+                    <div class="big">12,845</div>
+                    <div class="delta" style="font-size:0.7rem;">+11.2%</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="panel">
+                    <div class="label">Conversion Rate</div>
+                    <div class="big">3.24%</div>
+                    <div class="delta" style="font-size:0.7rem;">+8.4%</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="panel">
+                    <div class="label">Avg Order Value</div>
+                    <div class="big">$120.45</div>
+                    <div class="delta" style="font-size:0.7rem;">+12.1%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+
+            <div class="float-card card-satisfaction">
+              <div class="label">Client Satisfaction</div>
+              <div class="stars mb-1"><i class="fa-solid fa-star"></i> <span class="value"
+                  style="font-size:1.1rem;">95%</span></div>
+              <div class="d-flex align-items-center gap-2">
+                <div class="avatars d-flex">
+                  <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" style="width:22px;height:22px;">
+                  <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="" style="width:22px;height:22px;">
+                </div>
+                <span class="trusted-text" style="font-size:0.7rem;">500+ Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
